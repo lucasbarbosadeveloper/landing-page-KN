@@ -90,3 +90,14 @@ body{
     }
 
 }
+
+.cFooter{
+    color: #ffffff;
+    text-align: center;
+    font-family: $font-secondary;
+    font-size: 12px;
+    
+    a{
+        color: darkgray;
+    }
+}

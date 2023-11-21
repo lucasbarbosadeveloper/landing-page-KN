@@ -83,4 +83,14 @@ body {
   width: 45px;
 }
 
+.cFooter {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+}
+.cFooter a {
+  color: darkgray;
+}
+
 /*# sourceMappingURL=style.css.map */
