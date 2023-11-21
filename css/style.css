@@ -17,6 +17,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cHeader {
@@ -33,6 +37,50 @@ body {
   color: #ffffff;
   font-family: "Bebas Neue", sans-serif;
   font-size: 20px;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6980392157);
+}
+
+.cMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cMain .cMain__btn {
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  width: 310px;
+  background-color: rgba(148, 147, 147, 0.568627451);
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6980392157);
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6980392157);
+  position: relative;
+}
+.cMain .cMain__btn .cMain__ico {
+  width: 25px;
+  padding-top: 3px;
+  position: absolute;
+  right: 5%;
+}
+.cMain .cMain__collapse {
+  width: 275px;
+  background-color: rgba(148, 147, 147, 0.568627451);
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: none;
+}
+.cMain .cMain__collapse a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  line-height: 2rem;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6980392157);
+}
+.cMain .cMain__icoInsta {
+  width: 45px;
 }
 
 /*# sourceMappingURL=style.css.map */
