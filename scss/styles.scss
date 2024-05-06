@@ -13,7 +13,8 @@ img{
 body{
     width: 100%;
     height: 100vh;
-    background-image: url(https://images.pexels.com/photos/4761352/pexels-photo-4761352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(../imgs/background.jpg);
+    background-attachment: fixed;
     background-color: #000;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,6 +23,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .cHeader{
@@ -53,7 +55,7 @@ body{
     .cMain__btn{
         font-size: 20px;
         font-family: $font-primary;
-        width: 310px;
+        width: 340px;
         background-color: $btn-color;
         border: none;
         border-radius: 50px;
@@ -71,7 +73,7 @@ body{
     }
 
     .cMain__collapse{
-        width: 275px;
+        width: 300px;
         background-color: $btn-color;
         margin-bottom: 30px;
         border-radius: 10px;
@@ -101,5 +103,7 @@ body{
     
     a{
         color: darkgray;
+        font-weight: bold;
+        text-shadow: 0px 0px 5px black;
     }
 }
